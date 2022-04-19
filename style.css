@@ -1,0 +1,110 @@
+.back{
+    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6oXcGLOgPVHqB3lZPzhqnsf_Cr3XoEJKU1Q&usqp=CAU'); */
+    background-color: rgb(255, 193, 159);
+}
+
+.wide{
+    width: 8cm;
+    height: 1.4cm;
+    margin-left: 2cm;
+}
+
+.btnsource{
+    width: 1.5cm;
+    height: 1.5cm;
+    border-radius: 20px;
+}
+
+.bt{
+    color: white;
+    font-size: 30px;
+}
+
+/* .inblock{
+    height: 1.5cm;
+    
+} */
+
+.alertbox{
+    width: 100%;
+    height: 4cm;
+}
+
+/* .phblock{
+    margin-left: 10cm;
+} */
+
+.btnnn{
+    position: absolute;
+    background-color: red;
+    margin-left: -5.4cm;
+    margin-top: 2.7cm;
+    height: 1.5cm;
+    width: 1.5cm;
+    border-radius: 2cm;
+    opacity: 0;
+}
+
+.btnnn:hover {
+    opacity: 1;
+}
+
+
+.imahover{
+    width: 6cm;
+    height: 6cm;
+    padding: 30px;
+    /* margin-left: 2cm; */
+    margin-top: -2cm;
+}
+
+.imageindex{
+    font-size: 1cm;
+    color: white;
+}
+
+.nave{
+    margin-left: 1cm;
+    /* font-size: 30px; */
+}
+
+.imdiv{
+    width: 100%;
+    height: 10cm;
+}
+
+.qwerty{
+    height: 6cm;
+}
+
+
+.bottomtxt{
+    font-size: x-large;
+    color: red;
+    text-align: start;
+}
+
+.resbutton{
+    margin-left: 4.7cm;
+    background-color: rgb(255, 99, 99);
+    visibility: hidden;
+}
+
+.photoback{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI2_BskK1yHiEmsaDhfxJspKCHnj65IsxIufTtWb1cUQYasM1b7-5tsrrZ3Fl3n31RORE&usqp=CAU");
+}
+
+@media screen and (max-width: 500px) {
+    .resbutton{
+        visibility: visible;
+    }
+    
+    .imdiv{
+        height: 6cm;
+    }
+
+    .btnnn{
+        display: none;
+    }
+}
+
